@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 //game over
                 ctx.font = '20px Helvetica';
-                var message = 'Game Over'
+                var message = 'Game Over';
 
                 //get width of Game Over text
                 var metrics = ctx.measureText(message);
